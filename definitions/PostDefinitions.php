@@ -5,14 +5,14 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\definitions;
+namespace humhub\modules\rest4matchbook\definitions;
 use humhub\modules\post\models\Post;
 
 
 /**
  * Class PostDefinitions
  *
- * @package humhub\modules\rest\definitions
+ * @package humhub\modules\rest4matchbook\definitions
  */
 class PostDefinitions
 {

@@ -5,7 +5,7 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\definitions;
+namespace humhub\modules\rest4matchbook\definitions;
 
 use humhub\modules\content\components\ActiveQueryContent;
 use humhub\modules\content\models\Content;
@@ -16,7 +16,7 @@ use Yii;
 
 /**
  * Class ContentDefinitions
- * @package humhub\modules\rest\definitions
+ * @package humhub\modules\rest4matchbook\definitions
  */
 class ContentDefinitions
 {

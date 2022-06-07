@@ -1,11 +1,11 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
 use humhub\modules\content\models\Content;
 use humhub\modules\content\models\ContentContainer;
-use humhub\modules\rest\definitions\ContentDefinitions;
-use rest\ApiTester;
+use humhub\modules\rest4matchbook\definitions\ContentDefinitions;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class ContentCest extends HumHubApiTestCest

@@ -11,17 +11,17 @@ The base url for all APIs is: `https://yourhost/api/v1/`
 
 **Core APIs:**
 
-- [User](https://www.humhub.com/en/marketplace/rest/docs/html/user.html)
-- [Content](https://www.humhub.com/en/marketplace/rest/docs/html/content.html)
-- [Post](https://www.humhub.com/en/marketplace/rest/docs/html/post.html)
-- [Comment](https://www.humhub.com/en/marketplace/rest/docs/html/comment.html)
-- [Like](https://www.humhub.com/en/marketplace/rest/docs/html/like.html)
-- [Activity](https://www.humhub.com/en/marketplace/rest/docs/html/activity.html)
-- [Authentication](https://www.humhub.com/en/marketplace/rest/docs/html/auth.html)
-- [File](https://www.humhub.com/en/marketplace/rest/docs/html/file.html)
-- [Notification](https://www.humhub.com/en/marketplace/rest/docs/html/notification.html)
-- [Space](https://www.humhub.com/en/marketplace/rest/docs/html/space.html)
-- [Content Topics](https://www.humhub.com/en/marketplace/rest/docs/html/topic.html)
+- [User](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/user.html)
+- [Content](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/content.html)
+- [Post](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/post.html)
+- [Comment](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/comment.html)
+- [Like](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/like.html)
+- [Activity](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/activity.html)
+- [Authentication](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/auth.html)
+- [File](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/file.html)
+- [Notification](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/notification.html)
+- [Space](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/space.html)
+- [Content Topics](https://www.humhub.com/en/marketplace/rest4matchbook/docs/html/topic.html)
 
 **Module APIs** 
 

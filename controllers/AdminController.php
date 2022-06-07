@@ -5,11 +5,11 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers;
+namespace humhub\modules\rest4matchbook\controllers;
 
 use humhub\components\Response;
 use humhub\modules\admin\components\Controller;
-use humhub\modules\rest\models\ConfigureForm;
+use humhub\modules\rest4matchbook\models\ConfigureForm;
 use Yii;
 
 class AdminController extends Controller

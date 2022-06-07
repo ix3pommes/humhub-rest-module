@@ -5,12 +5,12 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\notification;
+namespace humhub\modules\rest4matchbook\controllers\notification;
 
 use humhub\modules\notification\models\forms\FilterForm;
 use humhub\modules\notification\models\Notification;
-use humhub\modules\rest\components\BaseController;
-use humhub\modules\rest\definitions\NotificationDefinitions;
+use humhub\modules\rest4matchbook\components\BaseController;
+use humhub\modules\rest4matchbook\definitions\NotificationDefinitions;
 use Yii;
 
 class NotificationController extends BaseController

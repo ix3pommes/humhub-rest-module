@@ -5,12 +5,12 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\auth;
+namespace humhub\modules\rest4matchbook\controllers\auth;
 
 use Firebase\JWT\JWT;
-use humhub\modules\rest\components\BaseController;
-use humhub\modules\rest\definitions\UserDefinitions;
-use humhub\modules\rest\models\ConfigureForm;
+use humhub\modules\rest4matchbook\components\BaseController;
+use humhub\modules\rest4matchbook\definitions\UserDefinitions;
+use humhub\modules\rest4matchbook\models\ConfigureForm;
 use humhub\modules\user\authclient\AuthClientHelpers;
 use humhub\modules\user\models\forms\Login;
 use humhub\modules\user\models\User;

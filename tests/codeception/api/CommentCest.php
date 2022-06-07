@@ -1,10 +1,10 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
 use humhub\modules\comment\models\Comment;
-use humhub\modules\rest\definitions\CommentDefinitions;
-use rest\ApiTester;
+use humhub\modules\rest4matchbook\definitions\CommentDefinitions;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class CommentCest extends HumHubApiTestCest

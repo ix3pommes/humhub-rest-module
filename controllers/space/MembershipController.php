@@ -5,11 +5,11 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\space;
+namespace humhub\modules\rest4matchbook\controllers\space;
 
 use Colors\RandomColor;
-use humhub\modules\rest\components\BaseController;
-use humhub\modules\rest\definitions\SpaceDefinitions;
+use humhub\modules\rest4matchbook\components\BaseController;
+use humhub\modules\rest4matchbook\definitions\SpaceDefinitions;
 use humhub\modules\space\models\Membership;
 use humhub\modules\space\models\Space;
 use humhub\modules\space\modules\manage\models\AdvancedSettingsSpace;

@@ -5,10 +5,10 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\user;
+namespace humhub\modules\rest4matchbook\controllers\user;
 
 use humhub\modules\admin\permissions\ManageUsers;
-use humhub\modules\rest\components\BaseController;
+use humhub\modules\rest4matchbook\components\BaseController;
 use humhub\modules\user\models\Session;
 use humhub\modules\user\models\User;
 

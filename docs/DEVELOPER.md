@@ -29,7 +29,7 @@ To append endpoints from another module:
 1) Add event in the file `config.php` of your module the following line:
 
 ```php
-['class' => 'humhub\modules\rest\Module', 'event' => 'restApiAddRules', 'callback' => ['humhub\modules\your_module\Events', 'onRestApiAddRules']],
+['class' => 'humhub\modules\rest4matchbook\Module', 'event' => 'restApiAddRules', 'callback' => ['humhub\modules\your_module\Events', 'onRestApiAddRules']],
 ```
 
 2) Implement `humhub\modules\your_module\Events::onRestApiAddRules` like this:
@@ -37,21 +37,21 @@ To append endpoints from another module:
 ```php
 public static function onRestApiAddRules()
 {
-    /* @var humhub\modules\rest\Module $restModule */
-    $restModule = Yii::$app->getModule('rest');
+    /* @var humhub\modules\rest4matchbook\Module $restModule */
+    $restModule = Yii::$app->getModule('rest4matchbook');
     $restModule->addRules([
-        ['pattern' => 'your_module/<objectId:\d+>/user/<userId:\d+>', 'route' => 'your_module/rest/user/add', 'verb' => 'POST'],
+        ['pattern' => 'your_module/<objectId:\d+>/user/<userId:\d+>', 'route' => 'your_module/rest4matchbook/user/add', 'verb' => 'POST'],
         ...
     ]);
 }
 ```
 
-3) Create a new controller, for example, here `protected/modules/your_module/controllers/rest/UserController.php`:
+3) Create a new controller, for example, here `protected/modules/your_module/controllers/rest4matchbook/UserController.php`:
 
 ```php
-namespace humhub\modules\your_module\controllers\rest;
+namespace humhub\modules\your_module\controllers\rest4matchbook;
 
-use humhub\modules\rest\components\BaseController;
+use humhub\modules\rest4matchbook\components\BaseController;
 
 class UserController extends BaseController
 {

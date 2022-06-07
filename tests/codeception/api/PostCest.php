@@ -1,10 +1,10 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
 use humhub\modules\post\models\Post;
-use humhub\modules\rest\definitions\PostDefinitions;
-use rest\ApiTester;
+use humhub\modules\rest4matchbook\definitions\PostDefinitions;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class PostCest extends HumHubApiTestCest

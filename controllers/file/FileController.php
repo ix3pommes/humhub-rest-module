@@ -5,11 +5,11 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\file;
+namespace humhub\modules\rest4matchbook\controllers\file;
 
 use humhub\modules\file\libs\FileHelper;
 use humhub\modules\file\models\File;
-use humhub\modules\rest\components\BaseController;
+use humhub\modules\rest4matchbook\components\BaseController;
 use Yii;
 
 class FileController extends BaseController

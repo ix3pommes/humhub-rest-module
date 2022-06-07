@@ -1,9 +1,9 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
 use Codeception\Util\HttpCode;
-use rest\ApiTester;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class AuthCest extends HumHubApiTestCest

@@ -5,12 +5,12 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\activity;
+namespace humhub\modules\rest4matchbook\controllers\activity;
 
 use humhub\modules\activity\models\Activity;
 use humhub\modules\content\models\Content;
-use humhub\modules\rest\components\BaseController;
-use humhub\modules\rest\definitions\ActivityDefinitions;
+use humhub\modules\rest4matchbook\components\BaseController;
+use humhub\modules\rest4matchbook\definitions\ActivityDefinitions;
 use Yii;
 
 class ActivityController extends BaseController

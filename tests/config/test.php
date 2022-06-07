@@ -7,16 +7,16 @@
  */
 
 return [
-    'modules' => ['rest'],
+    'modules' => ['rest4matchbook'],
     'fixtures' => [
         'default',
-        'humhub\modules\rest\tests\codeception\fixtures\ActivityFixture',
-        'humhub\modules\rest\tests\codeception\fixtures\CommentFixture',
-        'humhub\modules\rest\tests\codeception\fixtures\ContentFixture',
-        'humhub\modules\rest\tests\codeception\fixtures\FileFixture',
-        'humhub\modules\rest\tests\codeception\fixtures\LikeFixture',
-        'humhub\modules\rest\tests\codeception\fixtures\NotificationFixture',
-        'humhub\modules\rest\tests\codeception\fixtures\TopicFixture',
+        'humhub\modules\rest4matchbook\tests\codeception\fixtures\ActivityFixture',
+        'humhub\modules\rest4matchbook\tests\codeception\fixtures\CommentFixture',
+        'humhub\modules\rest4matchbook\tests\codeception\fixtures\ContentFixture',
+        'humhub\modules\rest4matchbook\tests\codeception\fixtures\FileFixture',
+        'humhub\modules\rest4matchbook\tests\codeception\fixtures\LikeFixture',
+        'humhub\modules\rest4matchbook\tests\codeception\fixtures\NotificationFixture',
+        'humhub\modules\rest4matchbook\tests\codeception\fixtures\TopicFixture',
     ]
 ];
 

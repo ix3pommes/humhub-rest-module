@@ -1,10 +1,10 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
 use humhub\modules\activity\models\Activity;
-use humhub\modules\rest\definitions\ActivityDefinitions;
-use rest\ApiTester;
+use humhub\modules\rest4matchbook\definitions\ActivityDefinitions;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class ActivityCest extends HumHubApiTestCest

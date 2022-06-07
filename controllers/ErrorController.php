@@ -5,8 +5,8 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers;
-use humhub\modules\rest\components\BaseController;
+namespace humhub\modules\rest4matchbook\controllers;
+use humhub\modules\rest4matchbook\components\BaseController;
 
 
 /**

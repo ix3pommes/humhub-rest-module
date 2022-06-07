@@ -1,7 +1,7 @@
 <?php
-namespace rest;
+namespace rest4matchbook;
 
-use humhub\modules\rest\definitions\UserDefinitions;
+use humhub\modules\rest4matchbook\definitions\UserDefinitions;
 use humhub\modules\user\models\User;
 
 /**

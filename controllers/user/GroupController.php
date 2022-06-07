@@ -5,11 +5,11 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\user;
+namespace humhub\modules\rest4matchbook\controllers\user;
 
 use humhub\modules\admin\permissions\ManageGroups;
-use humhub\modules\rest\components\BaseController;
-use humhub\modules\rest\definitions\UserDefinitions;
+use humhub\modules\rest4matchbook\components\BaseController;
+use humhub\modules\rest4matchbook\definitions\UserDefinitions;
 use humhub\modules\user\models\GroupUser;
 use humhub\modules\user\models\Group;
 use humhub\modules\user\models\User;
@@ -75,7 +75,7 @@ class GroupController extends BaseController
             return UserDefinitions::getGroup($group);
         }
 
-        Yii::error('Could not update group.', 'rest');
+        Yii::error('Could not update group.', 'rest4matchbook');
         return $this->returnError(500, 'Internal error while update group!');
     }
 

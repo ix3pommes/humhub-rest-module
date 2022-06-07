@@ -5,16 +5,16 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\components;
+namespace humhub\modules\rest4matchbook\components;
 
 use Exception;
 use Firebase\JWT\JWT;
 use humhub\components\access\ControllerAccess;
 use humhub\components\Controller;
 use humhub\modules\content\models\Content;
-use humhub\modules\rest\controllers\auth\AuthController;
-use humhub\modules\rest\models\ConfigureForm;
-use humhub\modules\rest\Module;
+use humhub\modules\rest4matchbook\controllers\auth\AuthController;
+use humhub\modules\rest4matchbook\models\ConfigureForm;
+use humhub\modules\rest4matchbook\Module;
 use humhub\modules\user\models\User;
 use Yii;
 use yii\data\Pagination;
@@ -26,7 +26,7 @@ use yii\web\JsonParser;
 /**
  * Class BaseController
  *
- * @package humhub\modules\rest\components
+ * @package humhub\modules\rest4matchbook\components
  */
 abstract class BaseController extends Controller
 {
@@ -104,7 +104,7 @@ abstract class BaseController extends Controller
         $authHeader = Yii::$app->request->getHeaders()->get('Authorization');
 
         /** @var Module $module */
-        $module = Yii::$app->getModule('rest');
+        $module = Yii::$app->getModule('rest4matchbook');
 
         if (!empty($authHeader) && preg_match('/^Bearer\s+(.*?)$/', $authHeader, $matches)) {
             $token = $matches[1];

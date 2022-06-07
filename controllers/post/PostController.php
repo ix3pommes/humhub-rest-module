@@ -5,12 +5,12 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\post;
+namespace humhub\modules\rest4matchbook\controllers\post;
 
 use humhub\modules\content\components\ContentActiveRecord;
 use humhub\modules\post\models\Post;
-use humhub\modules\rest\components\BaseContentController;
-use humhub\modules\rest\definitions\PostDefinitions;
+use humhub\modules\rest4matchbook\components\BaseContentController;
+use humhub\modules\rest4matchbook\definitions\PostDefinitions;
 
 
 class PostController extends BaseContentController

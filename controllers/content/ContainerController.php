@@ -5,10 +5,10 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\content;
+namespace humhub\modules\rest4matchbook\controllers\content;
 
-use humhub\modules\rest\components\BaseController;
-use humhub\modules\rest\definitions\ContentDefinitions;
+use humhub\modules\rest4matchbook\components\BaseController;
+use humhub\modules\rest4matchbook\definitions\ContentDefinitions;
 use humhub\modules\content\models\ContentContainer;
 
 

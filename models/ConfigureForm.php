@@ -5,9 +5,9 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\models;
+namespace humhub\modules\rest4matchbook\models;
 
-use humhub\modules\rest\Module;
+use humhub\modules\rest4matchbook\Module;
 use Yii;
 use yii\base\Model;
 
@@ -68,7 +68,7 @@ class ConfigureForm extends Model
     public function loadSettings()
     {
         /** @var Module $module */
-        $module = Yii::$app->getModule('rest');
+        $module = Yii::$app->getModule('rest4matchbook');
 
         $settings = $module->settings;
 
@@ -95,7 +95,7 @@ class ConfigureForm extends Model
     public function saveSettings()
     {
         /** @var Module $module */
-        $module = Yii::$app->getModule('rest');
+        $module = Yii::$app->getModule('rest4matchbook');
 
         $module->settings->set('jwtExpire', (int)$this->jwtExpire);
         $module->settings->set('jwtKey', $this->jwtKey);
@@ -128,7 +128,7 @@ class ConfigureForm extends Model
     public function getApiModuleOptions()
     {
         /** @var Module $module */
-        $module = Yii::$app->getModule('rest');
+        $module = Yii::$app->getModule('rest4matchbook');
 
         $options = [];
         foreach ($module->getModulesWithRestApi() as $apiModule) {

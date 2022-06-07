@@ -10,11 +10,11 @@ use humhub\components\Application;
 
 /** @noinspection MissedFieldInspection */
 return [
-    'id' => 'rest',
-    'class' => 'humhub\modules\rest\Module',
-    'namespace' => 'humhub\modules\rest',
+    'id' => 'rest4matchbook',
+    'class' => 'humhub\modules\rest4matchbook\Module',
+    'namespace' => 'humhub\modules\rest4matchbook',
     'events' => [
-        [Application::class, Application::EVENT_BEFORE_REQUEST, ['\humhub\modules\rest\Events', 'onBeforeRequest']]
+        [Application::class, Application::EVENT_BEFORE_REQUEST, ['\humhub\modules\rest4matchbook\Events', 'onBeforeRequest']]
     ]
 ];
 ?>

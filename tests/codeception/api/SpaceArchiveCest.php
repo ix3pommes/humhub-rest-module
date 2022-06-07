@@ -1,8 +1,8 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
-use rest\ApiTester;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class SpaceArchiveCest extends HumHubApiTestCest

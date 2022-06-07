@@ -6,7 +6,7 @@
  */
 
 /* @var $this \humhub\modules\ui\view\components\View */
-/* @var $model \humhub\modules\rest\models\ConfigureForm */
+/* @var $model \humhub\modules\rest4matchbook\models\ConfigureForm */
 
 use humhub\modules\user\widgets\UserPickerField;
 use yii\bootstrap\ActiveForm;

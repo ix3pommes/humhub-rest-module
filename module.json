@@ -1,12 +1,11 @@
 {
-    "id": "rest",
-    "name": "RESTful API",
+    "id": "rest4matchbook",
+    "name": "RESTful API for matchbook",
     "description": "Provides a RESTful API to the HumHub installation",
     "keywords": [
-        "api", "rest"
+        "api", "rest4matchbook"
     ],
     "version": "0.6.0",
-    "homepage": "https://github.com/humhub/rest",
     "humhub": {
         "minVersion": "1.10"
     },

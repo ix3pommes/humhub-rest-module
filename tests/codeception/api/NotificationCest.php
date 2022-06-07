@@ -1,10 +1,10 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
 use humhub\modules\notification\models\Notification;
-use humhub\modules\rest\definitions\NotificationDefinitions;
-use rest\ApiTester;
+use humhub\modules\rest4matchbook\definitions\NotificationDefinitions;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class NotificationCest extends HumHubApiTestCest

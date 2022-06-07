@@ -1,10 +1,10 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
-use humhub\modules\rest\definitions\TopicDefinitions;
+use humhub\modules\rest4matchbook\definitions\TopicDefinitions;
 use humhub\modules\topic\models\Topic;
-use rest\ApiTester;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class TopicCest extends HumHubApiTestCest

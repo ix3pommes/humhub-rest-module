@@ -5,9 +5,9 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\space;
+namespace humhub\modules\rest4matchbook\controllers\space;
 
-use humhub\modules\rest\components\BaseController;
+use humhub\modules\rest4matchbook\components\BaseController;
 use humhub\modules\space\activities\SpaceArchived;
 use humhub\modules\space\activities\SpaceUnArchived;
 use humhub\modules\space\models\Space;

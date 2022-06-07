@@ -1,11 +1,11 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
 use humhub\modules\like\models\Like;
 use humhub\modules\post\models\Post;
-use humhub\modules\rest\definitions\LikeDefinitions;
-use rest\ApiTester;
+use humhub\modules\rest4matchbook\definitions\LikeDefinitions;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class LikeCest extends HumHubApiTestCest

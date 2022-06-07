@@ -5,7 +5,7 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\definitions;
+namespace humhub\modules\rest4matchbook\definitions;
 
 use humhub\modules\user\models\Profile;
 use humhub\modules\user\models\Group;

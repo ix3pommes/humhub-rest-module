@@ -1,10 +1,10 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
-use humhub\modules\rest\definitions\UserDefinitions;
+use humhub\modules\rest4matchbook\definitions\UserDefinitions;
 use humhub\modules\user\models\Group;
-use rest\ApiTester;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class UserGroupCest extends HumHubApiTestCest

@@ -5,15 +5,15 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\comment;
+namespace humhub\modules\rest4matchbook\controllers\comment;
 
 use humhub\libs\Helpers;
 use humhub\modules\comment\models\forms\CommentForm;
 use humhub\modules\comment\Module;
 use humhub\modules\content\components\ContentActiveRecord;
 use humhub\modules\content\models\Content;
-use humhub\modules\rest\components\BaseController;
-use humhub\modules\rest\definitions\CommentDefinitions;
+use humhub\modules\rest4matchbook\components\BaseController;
+use humhub\modules\rest4matchbook\definitions\CommentDefinitions;
 use humhub\modules\comment\models\Comment;
 use Yii;
 use yii\web\ForbiddenHttpException;
@@ -21,7 +21,7 @@ use yii\web\NotFoundHttpException;
 
 /**
  * Class CommentController
- * @package humhub\modules\rest\controllers\comment
+ * @package humhub\modules\rest4matchbook\controllers\comment
  *
  * @property-read Module $commentModule
  * @property-read null|ContentActiveRecord|Comment $object

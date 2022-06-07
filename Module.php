@@ -5,7 +5,7 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest;
+namespace humhub\modules\rest4matchbook;
 
 use humhub\components\bootstrap\ModuleAutoLoader;
 use \humhub\components\Module as BaseModule;
@@ -23,7 +23,7 @@ class Module extends BaseModule
     /**
      * @var string Prefix for REST API endpoint URLs
      */
-    const API_URL_PREFIX = 'api/v1/';
+    const API_URL_PREFIX = 'api/v2/';
 
     /**
      * @inheritdoc
@@ -35,7 +35,7 @@ class Module extends BaseModule
      */
     public function getConfigUrl()
     {
-        return Url::to(['/rest/admin/index']);
+        return Url::to(['/rest4matchbook/admin/index']);
     }
 
     /**

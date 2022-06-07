@@ -1,10 +1,10 @@
 <?php
 
-namespace rest\api;
+namespace rest4matchbook\api;
 
-use humhub\modules\rest\definitions\SpaceDefinitions;
+use humhub\modules\rest4matchbook\definitions\SpaceDefinitions;
 use humhub\modules\space\models\Space;
-use rest\ApiTester;
+use rest4matchbook\ApiTester;
 use tests\codeception\_support\HumHubApiTestCest;
 
 class SpaceCest extends HumHubApiTestCest

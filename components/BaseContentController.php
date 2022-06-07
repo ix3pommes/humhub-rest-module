@@ -5,7 +5,7 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\components;
+namespace humhub\modules\rest4matchbook\components;
 
 use humhub\libs\DbDateValidator;
 use humhub\modules\content\components\ActiveQueryContent;
@@ -15,9 +15,9 @@ use humhub\modules\content\models\Content;
 use humhub\modules\content\models\ContentContainer;
 use humhub\modules\file\models\File;
 use humhub\modules\file\models\FileUpload;
-use humhub\modules\rest\definitions\FileDefinitions;
-use humhub\modules\tasks\controllers\rest\TasksController;
-use humhub\modules\rest\definitions\ContentDefinitions;
+use humhub\modules\rest4matchbook\definitions\FileDefinitions;
+use humhub\modules\tasks\controllers\rest4matchbook\TasksController;
+use humhub\modules\rest4matchbook\definitions\ContentDefinitions;
 use humhub\modules\topic\models\Topic;
 use humhub\modules\topic\permissions\AddTopic;
 use Yii;
@@ -28,7 +28,7 @@ use yii\web\UploadedFile;
 /**
  * BaseContentController provides basic CRUD operations for HumHub content records
  *
- * @package humhub\modules\rest\components
+ * @package humhub\modules\rest4matchbook\components
  */
 abstract class BaseContentController extends BaseController
 {

@@ -5,11 +5,11 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\controllers\topic;
+namespace humhub\modules\rest4matchbook\controllers\topic;
 
 use humhub\modules\content\models\ContentContainer;
-use humhub\modules\rest\components\BaseController;
-use humhub\modules\rest\definitions\TopicDefinitions;
+use humhub\modules\rest4matchbook\components\BaseController;
+use humhub\modules\rest4matchbook\definitions\TopicDefinitions;
 use humhub\modules\space\models\Membership;
 use humhub\modules\space\models\Space;
 use humhub\modules\topic\models\Topic;

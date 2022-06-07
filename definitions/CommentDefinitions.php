@@ -5,7 +5,7 @@
  * @license https://www.humhub.com/licences
  */
 
-namespace humhub\modules\rest\definitions;
+namespace humhub\modules\rest4matchbook\definitions;
 
 use humhub\components\ActiveRecord;
 use humhub\modules\comment\models\Comment;
@@ -13,7 +13,7 @@ use humhub\modules\content\models\Content;
 
 /**
  * Class CommentDefinitions
- * @package humhub\modules\rest\definitions
+ * @package humhub\modules\rest4matchbook\definitions
  */
 class CommentDefinitions
 {
