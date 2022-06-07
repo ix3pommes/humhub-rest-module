@@ -37,8 +37,14 @@ class UserDefinitions
             'display_name' => $user->displayName,
             'url' => Url::to(['/', 'container' => $user], true),
             'account' => static::getAccount($user),
-            'profile' => static::getProfile($user->profile)
+            'profile' => static::getProfile($user->profile),
+            'isFriends' => static::isFriends($user)
         ];
+    }
+
+    public static function isFriends(User $user)
+    {
+        return $user->canAccessPrivateContent();
     }
 
     public static function getProfile(Profile $profile)
