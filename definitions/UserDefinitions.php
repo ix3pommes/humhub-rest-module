@@ -38,11 +38,11 @@ class UserDefinitions
             'url' => Url::to(['/', 'container' => $user], true),
             'account' => static::getAccount($user),
             'profile' => static::getProfile($user->profile),
-            'isFriends' => static::isFriends($user)
+            'canAccessPrivateContent' => static::canAccessPrivateContent($user)
         ];
     }
 
-    public static function isFriends(User $user)
+    public static function canAccessPrivateContent(User $user)
     {
         return $user->canAccessPrivateContent();
     }
