@@ -43,6 +43,13 @@ class Events
             ['pattern' => 'user/full/<id:\d+>', 'route' => 'rest4matchbook/user/user/hard-delete', 'verb' => ['DELETE']],
             ['pattern' => 'user/', 'route' => 'rest4matchbook/user/user/create', 'verb' => 'POST'],
 
+            // Friendship
+            ['pattern' => 'friendship/', 'route' => 'rest4matchbook/friendship/friendship/index', 'verb' => ['GET', 'HEAD']],
+            ['pattern' => 'friendship/sendRequest', 'route' => 'rest4matchbook/friendship/friendship/send-request', 'verb' => 'POST'],
+            ['pattern' => 'friendship/sendCancel', 'route' => 'rest4matchbook/friendship/friendship/send-cancel', 'verb' => 'POST'],
+            ['pattern' => 'friendship/getSentRequests', 'route' => 'rest4matchbook/friendship/friendship/get-sent-requests', 'verb' => ['GET', 'HEAD']],
+            ['pattern' => 'friendship/getReceivedRequests', 'route' => 'rest4matchbook/friendship/friendship/get-received-requests', 'verb' => ['GET', 'HEAD']],
+
             // User: Group Controller
             ['pattern' => 'user/group', 'route' => 'rest4matchbook/user/group/index', 'verb' => ['GET', 'HEAD']],
             ['pattern' => 'user/group', 'route' => 'rest4matchbook/user/group/create', 'verb' => 'POST'],
