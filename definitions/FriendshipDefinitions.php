@@ -17,9 +17,7 @@ class FriendshipDefinitions
 
     public static function getFriend(User $user) {
 
-        return [
-            UserDefinitions::getUser($user)
-        ];
+        return UserDefinitions::getUser($user);
     }
 
     public static function getFriendship(Friendship $friendship) {

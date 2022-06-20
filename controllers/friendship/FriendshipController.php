@@ -23,13 +23,11 @@ class FriendshipController extends BaseController {
 
     public function actionIndex()
     {
-        $results = [];
         $currentUser = User::findOne(['id' => Yii::$app->user->id]);
         $query = Friendship::getFriendsQuery($currentUser);
 
-
-        $pagination = $this->handlePagination($query);
         $results = [];
+        $pagination = $this->handlePagination($query);
         foreach ($query->all() as $user) {
             $results[] = FriendshipDefinitions::getFriend($user);
         }
