@@ -25,6 +25,7 @@ class SpaceDefinitions
             'guid' => $space->guid,
             'name' => $space->name,
             'description' => $space->description,
+            'about' => $space->about,
             'url' => Url::to(['/', 'container' => $space], true)
         ];
     }
@@ -36,6 +37,7 @@ class SpaceDefinitions
             'guid' => $space->guid,
             'name' => $space->name,
             'description' => $space->description,
+            'about' => $space->about,
             'url' => Url::to(['/', 'container' => $space], true),
             'contentcontainer_id' => $space->contentcontainer_id,
             'visibility' => $space->visibility,
